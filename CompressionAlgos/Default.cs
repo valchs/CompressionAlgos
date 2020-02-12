@@ -8,28 +8,38 @@ namespace CompressionAlgos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the string:");
-            string input = Console.ReadLine();
-            HuffmanTree huffmanTree = new HuffmanTree();
-
-            // Build the Huffman tree
-            huffmanTree.Build(input);
-
-            // Encode
-            BitArray encoded = huffmanTree.Encode(input);
-
-            Console.Write("Encoded: ");
-            foreach (bool bit in encoded)
+            Console.WriteLine("Choose algorithm: 1 - Huffman; 2 - ....");
+            int algo = Int32.Parse(Console.ReadLine());
+            switch (algo)
             {
-                Console.Write((bit ? 1 : 0) + "");
+                case 1:
+                    Console.WriteLine("Please enter the string:");
+                    string input = Console.ReadLine();
+                    HuffmanTree huffmanTree = new HuffmanTree();
+
+                    // Build the Huffman tree
+                    huffmanTree.Build(input);
+
+                    // Encode
+                    BitArray encoded = huffmanTree.Encode(input);
+
+                    Console.Write("Encoded: ");
+                    foreach (bool bit in encoded)
+                    {
+                        Console.Write((bit ? 1 : 0) + "");
+                    }
+                    Console.WriteLine();
+
+                    // Decode
+                    string decoded = huffmanTree.Decode(encoded);
+
+                    Console.WriteLine("Decoded: " + decoded);
+                    break;
+                case 2:
+                    break;
+                default:
+                    break;
             }
-            Console.WriteLine();
-
-            // Decode
-            string decoded = huffmanTree.Decode(encoded);
-
-            Console.WriteLine("Decoded: " + decoded);
-
             Console.ReadLine();
         }
     }
