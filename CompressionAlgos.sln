@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionAlgos", "CompressionAlgos\CompressionAlgos.csproj", "{4EA8F592-CC32-410E-AF8D-3DF3AB02A75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionLibrary", "CompressionLibrary\CompressionLibrary.csproj", "{4AF678A7-DED6-426B-9B92-05629FA25D11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA8F592-CC32-410E-AF8D-3DF3AB02A75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA8F592-CC32-410E-AF8D-3DF3AB02A75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA8F592-CC32-410E-AF8D-3DF3AB02A75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA8F592-CC32-410E-AF8D-3DF3AB02A75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF678A7-DED6-426B-9B92-05629FA25D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF678A7-DED6-426B-9B92-05629FA25D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF678A7-DED6-426B-9B92-05629FA25D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF678A7-DED6-426B-9B92-05629FA25D11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F30BC84A-3963-46E7-AF48-7DCA99B7B8B6}
+	EndGlobalSection
+EndGlobal
