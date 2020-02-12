@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace CompressionAlgos
 {
-    class Program
+    class Default
     {
         static void Main(string[] args)
         {
